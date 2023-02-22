@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pinterest Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: #e60023;
+	padding: 10px;
+	text-align: center;
+}
+
+.header img {
+	max-width: 100%;
+}
+
+.form-container {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ddd;
+	margin-top: 20px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #e60023;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #d3051c;
+}
+
+p {
+	margin-top: 20px;
+	text-align: center;
+}
+
+a {
+	color: #e60023;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<a href="#"><img src="pinterest-logo.png" alt="Pinterest Logo"></a>
+		</div>
+		<div class="form-container">
+			<form>
+				<input type="email" placeholder="Email" required>
+				<input type="password" placeholder="Password" required>
+				<button type="submit">Log in</button>
+			</form>
+			<p>OR</p>
+			<a href="#">Continue with Facebook</a>
+			<p>Don't have an account? <a href="#">Sign up</a></p>
+		</div>
+	</div>
+</body>
+</html>
