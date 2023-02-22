@@ -1,0 +1,147 @@
+body{
+    background-image: url("img/bg.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.box{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin: 10px auto  ;
+    border-radius: 40px;
+    height: 695px;
+    width: 450px;
+    /* box-sizing: border-box; */
+    padding: 30px;
+    /* text-align: center; */
+    /* align-items: center; */
+    
+}
+.box2{
+    text-align: center;
+}
+.box2 button{
+    margin-top: 10px;
+}
+#btn{
+    margin-top: 10px;
+    margin-bottom: -90px;
+    background-color: red;
+    border: none;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+}
+#fb{
+    
+    margin-top: -20px;
+    background-color: #1878f3;
+    border: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    background-image: url(img/fbbb.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 10px 20px 20px;
+    background-size: contain;
+
+    
+}
+#gog{
+    background-color:white;
+    border: 1px solid gray;
+    font-weight:600;
+    font-size: 16px;
+    background-image: url(img/ggle.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 10px 20px 20px;
+    background-size: contain;
+}
+.condition a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.box input{
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 45px;
+    width: 330px;
+    
+}
+.box button{
+    text-align: center;
+    padding:10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 45px;
+    width: 330px;
+    
+}
+input:focus{
+    /* border: 3px solid lightblue; */
+    /* border: 5px solid rgb(42, 202, 255); */
+    border: 1px solid rgb(42,202,255);
+    box-shadow: 0 0 4px 4px  rgb(42,202,255);
+    box-sizing: border-box;
+    background: #ffe0e0;
+   
+    
+}
+.box h2{
+    margin-top: 20px;
+    /* font-weight:649; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.box img{
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+}
+hr{
+    margin-top: -27px;
+    width: 160px;
+}
+.mail label{
+    padding: 71px;
+    font-weight: 500;
+}
+.mail input{
+    /* text-align: center; */
+    display:block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    /* align-items: center; */
+}
+
+.pass label{
+    font-weight: 500;
+    padding: 71px;
+}
+span{
+    margin-top: -40px;
+}
+.pass input{
+    /* text-align: center; */
+    display:block;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    /* align-items: center; */
+}
+.forget{
+    margin-left: 65px; 
+    font-weight: bold;
+}
+.forget a {
+    color: #000;
+    text-decoration: none;
+}
