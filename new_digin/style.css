@@ -1,0 +1,153 @@
+body{
+    background: url(img/bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    display: flex;
+}
+ img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: -9px;
+} 
+.box{
+    
+    margin: 20px auto;
+    width: 25%;
+    height: fit-content;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 2em;
+}
+label{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.mailbox , .passbox{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin: auto;
+    text-align: start;
+    
+}
+.common_box input{
+    padding: 10px;
+    border-radius: 10px;
+    height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 7px;
+    width: 250px;
+}
+#forget{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: black;
+}
+.login button{
+    margin-top: 12px;
+    /* border: 1px solid yellow; */
+    background-size: 300;
+    width: 80%;
+    border-radius: 20px;
+    height: 35px;
+    border: none;
+    background:red;
+    font-size:14px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: -20px;
+
+}
+h3{
+    font-family:sans-serif ;
+    font-weight: bolder;
+    font-size: 29px;
+}
+
+h4{
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+.facebook a{
+    display: inline-block;
+    border:none;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    font-size:14px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    border-radius: 20px;
+    padding-top:10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* margin-bottom: 20px; */
+}
+.google a{
+    font-family: sans-serif;
+    margin-top: 10px;
+    display: inline-block;
+    border: 1px solid grey;
+    text-decoration: none;
+    color:black;
+    background-color:white;
+    font-size:14px;
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    border-radius: 20px;
+    padding-top:10px;
+    box-sizing: border-box;
+    /* margin-bottom: 20px; */
+}
+.condition2{
+    /* color: red; */
+    text-decoration: none;
+     font-weight: bold;
+     color: black;
+     font-family: sans-serif;
+     font-size: 10px;
+     
+}
+.condition2 a{
+    /* color: red;
+     */
+     text-decoration: none;
+     font-weight: bold;
+     color: black;
+     font-family: sans-serif;
+     font-size: 10px;
+
+}
+.condition{
+    text-decoration: none;
+     /* font-weight: bold; */
+     color: black;
+     font-family: sans-serif;
+     font-size: 10px;
+     
+}
+.condition a{
+    text-decoration: none;
+     font-weight: bold;
+     color: black;
+     font-family: sans-serif;
+     font-size: 10px;
+     
+}
+hr{
+    width: 34%;
+}
