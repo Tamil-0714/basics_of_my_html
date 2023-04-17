@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inner-box{
+    width: 400px;
+    height: 100px;
+    background: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    color:rgb(48, 213, 246);
+}
+
+.btn{
+    margin: 9%;
+    /* border: 1px solid red; */
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    /* background: rgb(48, 213, 246); */
+    background: #FE1F4A;
+    box-shadow: 1px 1px 20px 2px rgb(173, 246, 48);
+    cursor: pointer;
+}
+
+
