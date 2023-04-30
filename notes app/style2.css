@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: #2c2c2c;
+    color: azure;
+}
+h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.3rem
+
+}
+p{
+    line-height: 1.6rem;
+    padding: 40px;
+    text-align: justify;
+}
