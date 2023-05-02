@@ -1,0 +1,229 @@
+/* 
+
+
+
+
+#d5e1df
+#e3eaa7
+#b5e7a0
+#86af49
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    /* background: #d5e1df; */
+    background: #F3E99F;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.container-left{
+    width: 30%;
+    height: 100vh;
+    float: left;
+    /* border: 1px solid red; */
+}
+.container-right{
+    width: 40%;
+    height: 100vh;
+    float: left;
+    /* border: 1px solid blue; */
+    
+}
+.notes-history{
+    
+    background: #eca1a6;
+    width: 80%;
+    height: 90% ;
+    border-radius: 20px;
+    margin-top:5% ;
+    margin-left:7%;     
+    box-sizing: border-box;
+    /* position: absolute; */
+    padding: 20px;
+} 
+.list-of-tittles{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.tittle ol li{
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    margin-top: 10px;   
+    margin-left: 66px;
+    overflow: hidden;
+}
+.tittle ol li:hover{
+  cursor: pointer;
+  color: rgb(199, 230, 255);
+  font-weight: bold;
+}
+.content{
+    display: none;
+}
+
+ .input-box input{
+    /* border: 1px solid red; */
+    border: none;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 77%;
+    height: 45px;
+    border-radius:12px ;
+    background: #000000;
+    padding-left: 20px;
+    /* box-shadow: 2px 2px 2px 2px rgb(132, 255, 239);
+     */
+     box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    /* color: darkgray ; */
+
+}
+
+button{
+  /* border: 2px solid green !important; */
+  /* text-align: right; */
+  /* padding-right: 10%; */
+  /* box-sizing: border-box !important; */
+  /* border: 2px solid red !important; */
+  padding: -20px !important;
+  /* pointer-events: none !important; */
+}
+  .button{
+  width: 30%;
+  height: 100vh;
+  float: right;
+  /* pointer-events: none !important; */
+  /* border: 1px solid grey; */
+}
+
+.buttons button{
+   border: none;
+    /* position:; */
+    /* margin-left: 50%; */
+    /* width: 47%; */
+    /* left: 70%; */
+    /* top: 27%; */
+    /* margin-top: px; */
+    padding-right: 12px;
+    margin-top: 30px;
+    height: 45px;
+    border-radius:12px ;
+    background: #000000;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-left: 12px;
+     box-shadow: 0px 5px 10px 0px rgba(0,255,255,0.7);
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    /* pointer-events: none !important; */
+}
+button:hover{
+    background: whitesmoke;
+    color: darkgray;
+    box-shadow: rgba(209, 209, 224, 0.25) 0px 50px 100px -20px, 
+                rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, 
+                rgba(222, 238, 255, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+
+}
+input::placeholder{
+    color: aqua;
+}
+input:hover{
+  background: whitesmoke;
+  color: darkgray ;
+  box-shadow: rgba(209, 209, 224, 0.25) 0px 50px 100px -20px, 
+              rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, 
+              rgba(222, 238, 255, 0.35) 0px -2px 6px 0px inset;
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0,255,255,0.7);
+    outline: none;
+}
+input:hover::placeholder{
+  color: darkgray ;
+}
+.para-input-box textarea{
+    /* border: 1px solid red; */
+    
+  /* width: 100%;
+  height: 200px; */
+    /* overflow-wrap: break-word; */
+    /* white-space:pre-wrap; */
+    border: none;
+    text-decoration: none;
+    margin-top: 5%;
+    margin-left: 4%;
+    width: 77%;
+    height: 73vh;
+    border-radius:12px ;
+    background: #2c2c2c;
+    transition: all ease 0.2s;
+    padding-left: 20px;
+    /* box-shadow: 2px 2px 20px  rgb(72, 255, 133); */
+    
+    font-size: 1.3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color:aqua;
+    outline: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background: #eee; */
+    box-shadow: 2px 2px 20px 2px rgb(235, 246, 250);
+}
+/* Set the width of the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* for webkit-based browsers */
+    height: 12px; /* for webkit-based browsers */
+  }
+  
+  ::-moz-scrollbar {
+    width: 12px; /* for Firefox */
+    height: 12px; /* for Firefox */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: white; /* for webkit-based browsers */
+  }
+  
+  ::-moz-scrollbar-track {
+    background: #f1f1f1; /* for Firefox */
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* for webkit-based browsers */
+    border-radius:10px;
+  }
+  
+  ::-moz-scrollbar-thumb {
+    background: #888; /* for Firefox */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* for webkit-based browsers */
+  }
+  
+  ::-moz-scrollbar-thumb:hover {
+    background: #555; /* for Firefox */
+  }
+  
+    

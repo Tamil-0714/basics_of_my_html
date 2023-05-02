@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="container-left">
+        <div class="notes-history">
+            <div class="list-of-tittles">List of Tittles </div>
+            <div class="tittle"> 
+                <ol class="my-list"></ol>
+            </div>
+        </div>  
+    </div>
+    <div class="container-right">
+        <div class="input-box">
+            <input type="text" placeholder="Tittle" spellcheck="false">
+        </div>
+        
+        <div class="para-input-box">
+            <textarea name="tex-box" id="tex-box" cols="0" rows="0" spellcheck="false"></textarea>
+        </div>
+    </div>
+    <div class="buttons">
+        <div class="add-button btn">
+            <button>Add to List</button>
+        </div>
+        <div class="replace-button btn">
+            <button>Replace this</button>
+        </div>
+        <div class="del-button btn">    
+            <button>Delete this</button>
+        </div>
+        <div class="del-all-button btn">
+            <button>Delete All</button>
+        </div>
+    </div>  
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
