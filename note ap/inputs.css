@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #6D9886 !important;
+  margin: 12px 24px;
+}
+.input-box {
+  padding: 10px;
+}
+.input-box input {
+  border: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 12px;
+  border-radius: 18px;
+  width: 90%;
+  height: 40px;
+  outline: none;
+  background: #aaaaaa;
+  padding-left: 24px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4rem;
+  font-weight: bold;
+  box-shadow: inset 5px 5px 12px rgb(247, 226, 255),
+    5px 5px 12px rgba(90, 90, 90, 0.7);
+}
+.text-area {
+  padding: 10px;
+  height: 90vh;
+}
+
+.text-area textarea {
+  border: none;
+  background: #aaaaaa;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  border-radius: 0 24px 24px 0;
+  font-size: 1.4rem;
+  width: 100%;
+  height: 75%;
+  outline: none;
+  box-shadow: inset 5px 5px 12px rgb(207, 207, 207),
+    5px 5px 12px rgba(251, 255, 240, 0.815);
+}
+.add-button {
+  padding: 10px;
+}
+.add-button button {
+  border: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 12px;
+  border-radius: 18px;
+  width: 60%;
+  height: 40px;
+  outline: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  box-shadow: inset 5px 5px 12px rgb(253, 249, 255),
+    5px 5px 12px rgb(0, 0, 0, 0.7);
+}
+@media (min-width: 630px) {
+  .add-button button {
+    width: 190px !important;
+  }
+}
