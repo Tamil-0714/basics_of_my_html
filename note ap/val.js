@@ -3,7 +3,7 @@ button.addEventListener("click", ValuePasser);
 function ValuePasser() {
   let content = document.querySelector("textarea");
   let tittle = document.querySelector("input");
-  if (tittle.value == "") {
+  if (tittle.value.trim() == "") {
     alert("Give any tittle to add");
     return;
   }
