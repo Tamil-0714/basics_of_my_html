@@ -35,6 +35,10 @@ function removeEle() {
 }
 function replaceEle() {
   let newTittle = document.querySelector("input").value.trim();
+  if(newTittle ==''){
+          alert("give some tittle");
+          return;
+  }
   let newTextarea = document.querySelector("textarea").value.trim();
   let myArray = JSON.parse(localStorage.getItem("output")) || [];
   let existingItem = { title: tittle, content: newcontext };
