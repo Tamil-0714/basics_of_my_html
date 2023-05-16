@@ -81,7 +81,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid blue;
     padding: 12px;
     width: 500px; 
     position: absolute;
