@@ -18,7 +18,12 @@ body {
   /* gap: 10px; */
 
 header{
-    margin-bottom: 20px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #63cdda;
 }
 
 .container {
@@ -75,7 +80,9 @@ header{
 .text {
   margin-top: 15px;
   font-size: 25px;
+
   font-weight: 700;
+
   letter-spacing: 1px;
 }
 
