@@ -22,7 +22,7 @@ progressgropup.forEach((progres, idx) =>{
     let percentvalueStart  = 0;
     let percentvalueEnd  = courses[idx].percent;
     // console.log(percentvalueEnd);
-    let speed = 21;
+    let speed = 400;
     let progresTimmer = setInterval(()=>{
         percentvalueStart++;
         if(percentvalueStart == percentvalueEnd)
