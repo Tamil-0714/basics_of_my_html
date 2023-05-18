@@ -1,0 +1,141 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,500;0,600;0,700;0,800;1,200;1,300;1,800;1,900&display=swap"); */
+/* background: conic-gradient(#63cdda 5deg , #ccc 0deg) ; */
+* {
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: aliceblue;
+}
+/* .container {
+  /* display: flex; */
+  /* gap: 10px; */
+
+header{
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid !important;
+    grid-template-columns: repeat(2,1fr) !important;  /* Set the desired number of columns */
+    grid-auto-flow: dense !important; /* Enable automatic wrapping */
+    gap: 20px;
+  }
+.progress-group {
+  background: #e2e2e2;
+  width: 250px;
+  /* height: 350px; */
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, */
+  /* rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;  */
+
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+.progress-bar {
+  height: 150px;
+  width: 150px;
+
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  /* transition: 4s ; */
+}
+.course-value {
+  position: relative;
+  font-size: 35px;
+  font-weight: 500;
+  color: #63cdda;
+  /* transition: 4s ; */
+}
+.progress-bar::before {
+  content: "";
+  position: absolute;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background: #ffff;
+  transition: 4s;
+}
+.text {
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 1069px) {
+  
+}
+@media (max-width: 1000px) {
+  .container  {
+    grid-template-columns: repeat (
+      2,
+      1fr
+    ) !important; /* Adjust the number of columns for medium-sized screens */
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    grid-template-columns: repeat(
+      1,
+      1fr
+    ) !important; /* Adjust the number of columns for small screens */
+  }
+}
+@media (max-width: 413px){
+    .progress-group{
+        width: 200px;
+        height: auto;
+        /* border: 1px solid red; */
+        padding: 20px 0;
+    }    
+    .progress-bar{
+        height: 90px;        
+        width: 90px;
+        /* border: 3px solid yellow; */
+    }
+    .course-value {
+        position: relative;
+        font-size: 25px;
+        font-weight: 500;
+        color: #63cdda;
+        /* transition: 4s ; */
+      }
+    .progress-bar::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: #ffff;
+        transition: 4s;
+      }
+      .text {
+        margin-top: 5px;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      .btm{
+        margin: 40px !important;
+    }   
+      
+    
+}
