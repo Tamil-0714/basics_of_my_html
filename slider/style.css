@@ -1,0 +1,155 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: aliceblue;
+    display: grid;
+    place-items: center;
+    /* transition: all 5s !important; */
+}
+
+.container{
+    background: #fff;
+    width: 600px;
+    min-height: 400px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.9s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+.fadeOut{
+    opacity: 0;
+}
+/* .container .img-box,
+.container .text,
+.container .arrow {
+  transition: opacity 0.5s ease;
+}
+
+.fadeOut .img-box,
+.fadeOut .text,
+.fadeOut .arrow {
+  opacity: 0;
+} */
+.img-box{
+    display: flex;
+    justify-content: center;
+}
+.container h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 10px;
+    position: relative;
+    padding: 5px;
+}
+.container h2 span{
+    color:#95cc31;
+}
+.container h2::after{
+    content: "";
+    width: 25%;
+    height: 5px;
+    background: #2f671c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    transform: translateX(220px);
+}
+.pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #dccbfc;
+    /* overflow: hidden;
+    position: relative; */
+    position: relative;
+    z-index: 7;
+}
+.pic img{
+
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    z-index: 99;
+
+}
+.circle-1{
+    background: #1bff5f;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+}
+.circle-2{
+    background: #5fe989;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.profile{
+    /* background: red; */
+    /* text-align: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 20px;
+    
+}
+.profile h4{
+    font-size: 18px;
+    position: relative
+}
+.profile h4::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background: #2f671c;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.profile p{
+    font-size: 14px;
+}
+.text p{
+    padding: 30px;
+    font-size: 20px;
+    color: #222;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.arrow{
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    top: 160px;
+    cursor: pointer;
+}
+.fa-chevron-circle-right{
+    right: -50px;
+}
+.fa-chevron-circle-left{
+    left: -50px ;
+}
