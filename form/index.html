@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FoRm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="" id="form">
+        <h2>Register form</h2>
+        <div class="input-container">
+          <div class="username input-group">
+            <label for="user-name">User Name</label>
+            <input type="text" id="user-name" name="user-name" />
+            <div class="error"></div>
+          </div>
+          <div class="email input-group">
+            <label for="e-mail">E-Mail</label>
+            <input type="text" id="e-mail" name="e-mail" />
+            <div class="error"></div>
+          </div>
+          <div class="password input-group">
+            <label for="pass-word">Password</label>
+            <input type="password" id="pass-word" name="pass-word" />
+            <div class="error"></div>
+          </div>
+          <div class="cpassword input-group">
+            <label for="c-password">Confirm Password</label>
+            <input type="password" id="c-password" name="c-password" />
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="submit-btn">
+            <button type="submit">Submit Form</button>
+        </div>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
