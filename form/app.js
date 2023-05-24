@@ -43,6 +43,9 @@ validate = () => {
     setError(password, "Password and Confirm password are mis-match");
     setError(Cpassword, "Password and Confirm password are mis-match");
     valid = false;
+  } else if (password.value.trim().length < 8) {
+    setError(password, "Password must be greated than 8 charectors");
+    valid = false;
   } else {
     setSucces(Cpassword);
     valid = true;
