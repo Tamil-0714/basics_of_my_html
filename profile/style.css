@@ -1,0 +1,42 @@
+body {
+  background: #e4dada;
+}
+
+@media (max-width: 768px) {
+  .notes {
+    padding: 20px;
+  }
+  .notes .add-box input {
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    width: 80%;
+    font-size: 1.1rem;
+    margin: 10px 0;
+  }
+  .notes .add-box button{
+    padding: 12px;
+    width: 120px;
+    border-radius: 12px;
+    border: none;
+    box-shadow: -1px 1px 15px 1px #ababab;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* border: 1px solid red; */
+  }
+  .del-selected{
+    margin-left: 30px !important;
+  }
+  .wrapper {
+    padding-left: 10px;
+  }
+  .wrapper .city label {
+    font-size: 1.2rem;
+    padding: 12px;
+  }
+  .wrapper .city {
+    margin: 10px 0;
+  }
+
+}
