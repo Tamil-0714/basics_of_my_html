@@ -216,6 +216,12 @@ for (let i = 601; i <= 669; i++) {
   obj[key] = 0.0;
   objData.push(obj);
 }
+function UptateABS(){
+   let a = 37
+   let newId = "22UCS6"+a;
+   newobj[a-1][newId] += 0.5
+   console.log(newobj)
+}
 
 console.log(objData);
 let x = JSON.stringify(objData);
