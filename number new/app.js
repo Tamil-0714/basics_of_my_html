@@ -234,6 +234,6 @@ let newobj = [
 const myText = JSON.stringify(newobj);
 const myFilename = 'myFile.txt';
 function btnwrk(){
-downloadTextFile(myText, myFilename);
+    document.querySelector("div").innerHTML = myText
 }
 
