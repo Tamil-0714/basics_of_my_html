@@ -23,7 +23,6 @@
     text-align:left;
     /* float: right; */
     color: yellowgreen;
-    color:black;
     font-size: 1.5rem;
     padding-left: 20px;
     line-height: 50px;
@@ -64,7 +63,7 @@
   
   @media (max-width: 768px) {
     nav ul {
-      position: fixed; 
+      position: absolute; 
       left: 0;
       width: 70%;
       height: 100vh;
