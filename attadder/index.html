@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>drive project</title>
+    <!-- <link rel="stylesheet" href="style.css?v=1.0"> -->
+    <link rel="stylesheet" href="navStyle.css?v=1.0">
+    <link rel="stylesheet" href="style.css?v=1.0" />
+  </head>
+  <body>
+    <div class="empty-area"></div>
+    <nav class="nav-bar">
+        <span>Tamil</span>
+        <div class="profile">
+          <img src="img/profile.jpg" alt="" />
+        </div>
+        <ul>
+          <li><a href="#" id="home">Home</a></li>
+          <li><a href="#" id="about">About</a></li>
+          <li><a href="#" id="contact">Contact us</a></li>
+          <li><a href="#" id="project">Projects</a></li>
+          <li><a href="#" id="buy">Buy Thanks</a></li>
+        </ul>
+        <div class="hamburger">
+          <sapn class="line"></sapn>
+          <sapn class="line"></sapn>
+          <sapn class="line"></sapn>
+        </div>
+      </nav>
+    <div class="header">
+      <div class="title">Uptate to drive</div>
+      <div class="auth-buttons">
+        <button class="signin">Sign in</button>
+        <button class="signout">Sign out</button>
+      </div>
+    </div>
+    <div class="actions">
+      <textarea placeholder="Enter you text here"></textarea>
+      <button class="upload">Upload</button>
+    </div>
+    <div class="chosed-file">No File where selected yet ,so select file</div>
+    <h1>Attadence Data</h1>
+    <div class="list">
+      <ul>
+        <!-- <div class="not-signin">Sign in To see files</div>
+             -->
+        <div class="lds-roller">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </ul>
+    </div>
+    <div class="expand-container" style="display: none">
+      <ul>
+        <li onclick="readEditDownload(this , 'read')">read</li>
+        <li onclick="readEditDownload(this , 'ChooseThis')">Choose this</li>
+        <li onclick="readEditDownload(this , 'display')">Display</li>
+        <!-- <li>Edit</li> -->
+        <!-- <li>Download</li>
+            <li>Delete</li> -->
+      </ul>
+    </div>
+    <script src="script.js"></script>
+    <script src="navscript.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+  </body>
+</html>
