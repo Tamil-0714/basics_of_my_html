@@ -20,6 +20,7 @@
     background: #f1f4f5;
   }
   nav span {
+    text-align:left;
     /* float: right; */
     color: yellowgreen;
     font-size: 1.5rem;
