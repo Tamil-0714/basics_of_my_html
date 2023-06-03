@@ -63,7 +63,7 @@
   
   @media (max-width: 768px) {
     nav ul {
-      /* position: fixed; */
+      position: fixed; 
       left: 0;
       width: 70%;
       height: 100vh;
