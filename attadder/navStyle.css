@@ -91,6 +91,8 @@
       /* transition: color 1s ease; */
     }
     nav ul.slide {
+      position: absolute;
+      z-index:100;
       left: 0;
       transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
     }
