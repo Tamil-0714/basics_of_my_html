@@ -20,9 +20,10 @@
     background: #f1f4f5;
   }
   nav span {
-    text-align:left;
+    text-align:left !important;
     /* float: right; */
     color: yellowgreen;
+    color:black;
     font-size: 1.5rem;
     padding-left: 20px;
     line-height: 50px;
@@ -64,6 +65,7 @@
   @media (max-width: 768px) {
     nav ul {
       position: absolute; 
+      z-index:100;
       left: 0;
       width: 70%;
       height: 100vh;
