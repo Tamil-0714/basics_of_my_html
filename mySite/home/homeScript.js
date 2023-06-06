@@ -5,7 +5,7 @@ const imageUrls2 = ["F1.jpg", "F2.jpg", "F3.jpg", "F4.jpg", "F5.jpg", "F6.jpg"];
 var images = [];
 var loadedImages = 0;
 
-function preloadImages() {
+/*function preloadImages() {
   var promises = [];
   for (var i = 0; i < imageUrls.length; i++) {
     var imagePromise = new Promise(function (resolve, reject) {
@@ -20,6 +20,33 @@ function preloadImages() {
 
   return Promise.all(promises);
 }
+*/
+function preloadImages() { 
+  var promises = []; 
+  for (var i = 0; i < imageUrls.length; i++) { 
+    var imagePromise = new Promise(function (resolve, reject) { 
+      var image = new Image(); 
+      image.onload = resolve; 
+      image.onerror = reject; 
+      image.src = `../img/${imageUrls[i]}`; 
+      images.push(image); 
+    }); 
+    promises.push(imagePromise); 
+  }
+
+  for (var i = 0; i < imageUrls2.length; i++) { 
+    var imagePromise2 = new Promise(function (resolve, reject) { 
+      var image2 = new Image(); 
+      image2.onload = resolve; 
+      image2.onerror = reject; 
+      image2.src = `../img/${imageUrls2[i]}`; 
+      images.push(image2); 
+    }); 
+    promises.push(imagePromise2); 
+  }
+  
+  return Promise.all(promises); 
+} 
 function changeBackground(index) {
   if (index >= 0 && index < imageUrls.length) {
     var imageUrl = imageUrls[index];
