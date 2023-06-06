@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+.container {
+  /* margin-top: 51px; */
+  scroll-snap-align: start;
+  background: url("../img/1.jpg") center fixed no-repeat;
+  height: 100vh;
+  /* height: calc(100vh - 50px); */
+  width: 100vw;
+  overflow: hidden;
+  transition: background 1.4s cubic-bezier(0.85, -0.1, 0.14, 1.11);
+}
+.white-box {
+  background: rgba(150, 150, 150, 0.777);
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 550px;
+  z-index: 1;
+  padding: 12px;
+  padding-top: 23%;
+  border-radius: 12px;
+}
+.white-box #head {
+  font-size: 12px;
+  font-family: monospace;
+  text-align: center;
+  color: white;
+  /* color: red; */
+  font-weight: 900;
+}
+.typing-text {
+  color: white;
+  font-size: 13px;
+  margin: 15px;
+  font-weight: bold;
+  /* text-align: justify; */
+  /* color: red; */
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: 'Roboto Mono', monospace;
+}
+.img-circle {
+  background: url("../img/F1.jpg") center/cover fixed no-repeat;
+  border: 1px solid #7c7c7c;
+  border-radius: 50%;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: 190px;
+  height: 190px;
+  position: absolute;
+  z-index: 10;
+  transition: background 1.4s cubic-bezier(0.85, -0.1, 0.14, 1.11);
+}
+
+.second-container {
+    background: #f2f3ee;
+  /* scroll-snap-align: start; */
+  /* padding: 10px; */
+  height: 100vh;
+  position: relative;
+  /* height: calc(100vh - 50px); */
+}
+.second-container .center-head{
+    padding: 20px;
+    text-align: right;
+    /* margin-top: 90px; */
+    padding-top: 40px;
+    margin-right: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 1px solid red; */
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 100;
+}
+.hori-line{
+    margin-top: 20%;
+    height: 80vh;
+    width: 3px;
+    margin-left: 50px;
+    background: #000;
+    position: absolute;
+}
+.orange-cicrcle{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background: rgb(255, 176, 28);
+    position: absolute;
+    z-index: 1;
+    left: 67%;
+    top: 2%;
+}
+.bottom-area{
+    width: 80%;
+    /* border: 1px solid red; */
+    margin-left: 20%;
+    margin-right: 3%;
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.bottom-text{
+    font-family: 'Cedarville Cursive', cursive;
+    width: 80%;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    padding-right: 5%;
+    margin-right: 3%;
+    margin-top: 40px;
+}
