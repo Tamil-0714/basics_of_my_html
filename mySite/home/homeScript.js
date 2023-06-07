@@ -74,7 +74,7 @@ function typeText(text, element, delay) {
       if (index === text.length) {   
         clearInterval(typingInterval);
         resolve();
-        changeBackground(1);
+        
       }
     }, delay);
   });
@@ -84,6 +84,7 @@ async function startTyping() {
   await typeText(textToType, typingTextElement, 5);
   await preloadImages();
   var currentIndex = 2;
+  changeBackground(1);
   setInterval(function () {
     changeBackground(currentIndex);
     currentIndex = (currentIndex + 1) % imageUrls.length;
