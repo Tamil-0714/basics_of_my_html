@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Erp photo</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="dno"
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+        background: #ddd;
+      "
+    >
+      <label for="d-no" style="font-size: 1.7rem; display: block; margin: 10px;"
+        >Dno</label
+      >
+      <input
+        type="text"
+        name=""
+        id="d-no "
+        style="height: 30px; padding: 12px; font-size: 1.3rem"
+      />
+      <button
+        style="
+          font-size: 1.3rem;
+          padding: 8px;
+          border-radius: 3px;
+          border: 0.7px solid #000;
+          margin: 12px;
+        "
+      >
+        Click me
+      </button>
+    </div>
+    <script>
+        const dno = document.querySelector('input');
+        document.querySelector('button').addEventListener('click',()=>{
+            location.href = `https://sjctni.edu/images/SPhotos/22/${dno.value}.jpg`
+        })
+    </script>
+  </body>
+</html>
